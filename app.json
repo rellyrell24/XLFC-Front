@@ -14,14 +14,16 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.stuka.xlfc"
+      "bundleIdentifier": "com.stuka.xlfc",
+      "googleServicesFile": "./resources/GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.stuka.xlfc"
+      "package": "com.stuka.xlfc",
+      "googleServicesFile": "./resources/google-services.json"
     },
     "web": {
       "bundler": "metro",
