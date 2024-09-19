@@ -1,0 +1,476 @@
+.coach-homepage {
+    background-color: #5a90e2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.coach-homepage .overlap-wrapper {
+    background-color: #5a90e2;
+    height: 932px;
+    overflow: hidden;
+    width: 430px;
+}
+
+.coach-homepage .overlap {
+    height: 932px;
+    position: relative;
+}
+
+.coach-homepage .img {
+    height: 932px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.coach-homepage .frame {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    height: 61px;
+    left: 85px;
+    position: absolute;
+    top: 80px;
+    width: 123px;
+}
+
+.coach-homepage .text-wrapper {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    opacity: 0.8;
+    position: relative;
+}
+
+.coach-homepage .div {
+    color: #ffffff;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -7px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: relative;
+    width: 139px;
+}
+
+.coach-homepage .status-bar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.coach-homepage .time {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.coach-homepage .time-2 {
+    color: #ffffff;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18.6px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.coach-homepage .levels {
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.coach-homepage .battery {
+    height: 14px;
+    left: 99px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+}
+
+.coach-homepage .overlap-group {
+    border: 1.09px solid;
+    border-color: #ffffff59;
+    border-radius: 4.7px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.coach-homepage .capacity {
+    background-color: #ffffff;
+    border-radius: 2.74px;
+    height: 10px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 23px;
+}
+
+.coach-homepage .cap {
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.coach-homepage .wifi {
+    height: 13px;
+    left: 72px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+}
+
+.coach-homepage .cellular-connection {
+    height: 13px;
+    left: 43px;
+    position: absolute;
+    top: 21px;
+    width: 21px;
+}
+
+.coach-homepage .type-edit-avatar {
+    background-color: #ffffff;
+    border-radius: 100px;
+    height: 52px;
+    left: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 79px;
+    width: 52px;
+}
+
+.coach-homepage .layer {
+    height: 52px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 52px;
+}
+
+.coach-homepage .frame-wrapper {
+    background-color: #ffffff;
+    border-radius: 40px 40px 0px 0px;
+    height: 763px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 169px;
+    width: 430px;
+}
+
+.coach-homepage .frame-2 {
+    background-color: #ffffff;
+    border-color: #ededed;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 90px;
+    position: relative;
+    top: 673px;
+}
+
+.coach-homepage .home {
+    height: 46px;
+    left: 80px;
+    position: absolute;
+    top: 15px;
+    width: 26px;
+}
+
+.coach-homepage .my-recepits {
+    height: 46px;
+    left: 150px;
+    position: absolute;
+    top: 15px;
+    width: 42px;
+}
+
+.coach-homepage .bookmark {
+    height: 24px;
+    left: 9px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.coach-homepage .text-wrapper-2 {
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+}
+
+.coach-homepage .offers {
+    height: 45px;
+    left: 220px;
+    position: absolute;
+    top: 16px;
+    width: 57px;
+}
+
+.coach-homepage .text-wrapper-3 {
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+}
+
+.coach-homepage .discount {
+    height: 24px;
+    left: 16px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.coach-homepage .setting {
+    height: 46px;
+    left: 319px;
+    position: absolute;
+    top: 15px;
+    width: 33px;
+}
+
+.coach-homepage .setting-2 {
+    height: 24px;
+    left: 4px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.coach-homepage .home-indicator {
+    background-color: #e0e0e0;
+    border-radius: 80px;
+    height: 5px;
+    left: 150px;
+    position: absolute;
+    top: 78px;
+    width: 130px;
+}
+
+.coach-homepage .text-wrapper-4 {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 208px;
+}
+
+.coach-homepage .frame-3 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #5a90e1;
+    border-radius: 18px;
+    height: 256px;
+    left: 23px;
+    overflow: hidden;
+    position: absolute;
+    top: 246px;
+    width: 380px;
+}
+
+.coach-homepage .frame-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    left: 78px;
+    position: absolute;
+    top: 24px;
+    width: 190px;
+}
+
+.coach-homepage .text-wrapper-5 {
+    align-self: stretch;
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.coach-homepage .sarah-collin {
+    align-self: stretch;
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+}
+
+.coach-homepage .frame-5 {
+    align-items: center;
+    display: inline-flex;
+    gap: 5px;
+    left: 20px;
+    position: absolute;
+    top: 84px;
+}
+
+.coach-homepage .text-wrapper-6 {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.5;
+    position: relative;
+    width: fit-content;
+}
+
+.coach-homepage .text-wrapper-7 {
+    color: #55d262;
+    font-family: "Anek Odia-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.coach-homepage .frame-6 {
+    align-items: center;
+    display: inline-flex;
+    gap: 5px;
+    left: 119px;
+    position: absolute;
+    top: 84px;
+}
+
+.coach-homepage .overlap-2 {
+    border-radius: 100px;
+    height: 63px;
+    left: 14px;
+    position: absolute;
+    top: 6px;
+    width: 64px;
+}
+
+.coach-homepage .group {
+    height: 50px;
+    left: 6px;
+    position: absolute;
+    top: 12px;
+    width: 50px;
+}
+
+.coach-homepage .layer-wrapper {
+    background-color: #ffffff;
+    border-radius: 100px;
+    height: 63px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 64px;
+}
+
+.coach-homepage .layer-2 {
+    height: 63px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 64px;
+}
+
+.coach-homepage .login-wrapper {
+    align-items: center;
+    background-color: #5990e1;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px #5a90e226;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 48px;
+    justify-content: center;
+    left: 55px;
+    padding: 16px 24px;
+    position: absolute;
+    top: 179px;
+    width: 268px;
+}
+
+.coach-homepage .login {
+    color: #ffffff;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -8px;
+    margin-top: -10px;
+    position: relative;
+    width: fit-content;
+}
+
+.coach-homepage .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 21px;
+    left: 334px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 95px;
+    width: 78px;
+}

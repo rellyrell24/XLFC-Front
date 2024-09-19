@@ -1,0 +1,218 @@
+.more-info {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.more-info .overlap-wrapper {
+    background-color: #ffffff;
+    height: 616px;
+    overflow: hidden;
+    width: 430px;
+}
+
+.more-info .overlap {
+    height: 616px;
+    position: relative;
+}
+
+.more-info .img {
+    height: 616px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.more-info .frame {
+    align-items: center;
+    background-color: #5990e1;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px #5a90e226;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 62px;
+    justify-content: center;
+    left: 25px;
+    padding: 16px 24px;
+    position: absolute;
+    top: 507px;
+    width: 380px;
+}
+
+.more-info .login {
+    color: #ffffff;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -1px;
+    margin-top: -3px;
+    position: relative;
+    width: fit-content;
+}
+
+.more-info .div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left: 25px;
+    position: absolute;
+    top: 136px;
+    width: 380px;
+}
+
+.more-info .frame-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+    width: 100%;
+}
+
+.more-info .email {
+    align-self: stretch;
+    color: #1b1a1e99;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.more-info .sarah-collin-wrapper {
+    align-self: stretch;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e3e3e3;
+    border-radius: 12px;
+    height: 57px;
+    position: relative;
+    width: 100%;
+}
+
+.more-info .sarah-collin {
+    color: #1b1a1e4c;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+}
+
+.more-info .fill-your-profile {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 69px;
+}
+
+.more-info .status-bar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.more-info .time {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.more-info .text-wrapper {
+    color: var(--labelsprimary);
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18.6px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.more-info .levels {
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.more-info .battery {
+    height: 14px;
+    left: 99px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+}
+
+.more-info .overlap-group {
+    border: 1.09px solid;
+    border-color: var(--labelsprimary);
+    border-radius: 4.7px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.more-info .capacity {
+    background-color: var(--labelsprimary);
+    border-radius: 2.74px;
+    height: 10px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 23px;
+}
+
+.more-info .cap {
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.more-info .wifi {
+    height: 13px;
+    left: 72px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+}
+
+.more-info .cellular-connection {
+    height: 13px;
+    left: 43px;
+    position: absolute;
+    top: 21px;
+    width: 21px;
+}

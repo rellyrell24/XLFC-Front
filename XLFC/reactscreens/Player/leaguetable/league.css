@@ -1,0 +1,428 @@
+.league-table {
+    background-color: #5a90e1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.league-table .overlap-wrapper {
+    background-color: #5a90e1;
+    height: 932px;
+    overflow: hidden;
+    width: 430px;
+}
+
+.league-table .overlap {
+    height: 932px;
+    position: relative;
+    width: 2230px;
+}
+
+.league-table .img {
+    height: 932px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.league-table .type-edit-avatar {
+    background-color: #ffffff;
+    border-radius: 100px;
+    height: 80px;
+    left: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 70px;
+    width: 80px;
+}
+
+.league-table .layer {
+    height: 80px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 80px;
+}
+
+.league-table .frame {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    left: 117px;
+    position: absolute;
+    top: 88px;
+    width: 123px;
+}
+
+.league-table .div {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.league-table .text-wrapper-2 {
+    align-self: stretch;
+    color: #e3e3e3;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+}
+
+.league-table .status-bar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.league-table .time {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.league-table .time-2 {
+    color: var(--labelsprimary);
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18.6px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.league-table .levels {
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.league-table .battery {
+    height: 14px;
+    left: 99px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+}
+
+.league-table .overlap-group {
+    border: 1.09px solid;
+    border-color: var(--labelsprimary);
+    border-radius: 4.7px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.league-table .capacity {
+    background-color: var(--labelsprimary);
+    border-radius: 2.74px;
+    height: 10px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 23px;
+}
+
+.league-table .cap {
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.league-table .wifi {
+    height: 13px;
+    left: 72px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+}
+
+.league-table .cellular-connection {
+    height: 13px;
+    left: 43px;
+    position: absolute;
+    top: 21px;
+    width: 21px;
+}
+
+.league-table .frame-2 {
+    height: 42px;
+    left: 363px;
+    position: absolute;
+    top: 89px;
+    width: 42px;
+}
+
+.league-table .frame-3 {
+    background-color: #ffffff;
+    border-radius: 40px 40px 0px 0px;
+    height: 763px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 169px;
+    width: 430px;
+}
+
+.league-table .frame-4 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 18px;
+    position: absolute;
+    top: 35px;
+    width: 380px;
+}
+
+.league-table .text-wrapper-3 {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.league-table .frame-5 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    width: 5px;
+}
+
+.league-table .frame-6 {
+    background-color: #1b1a1e;
+    border-radius: 80px;
+    height: 4px;
+    position: relative;
+    width: 4px;
+}
+
+.league-table .rectangle-wrapper {
+    background-color: #d9d9d9;
+    border-radius: 8px;
+    height: 10px;
+    left: 25px;
+    position: absolute;
+    top: 647px;
+    width: 385px;
+}
+
+.league-table .rectangle {
+    background-color: #656262;
+    border-radius: 8px;
+    height: 10px;
+    width: 180px;
+}
+
+.league-table .frame-7 {
+    background-color: #ffffff;
+    border-color: #ededed;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 90px;
+    left: 2px;
+    position: absolute;
+    top: 673px;
+    width: 430px;
+}
+
+.league-table .home {
+    height: 46px;
+    left: 85px;
+    position: absolute;
+    top: 22px;
+    width: 26px;
+}
+
+.league-table .my-recepits {
+    height: 46px;
+    left: 148px;
+    position: absolute;
+    top: 22px;
+    width: 56px;
+}
+
+.league-table .bookmark {
+    height: 24px;
+    left: 16px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.league-table .text-wrapper-4 {
+    color: #5a90e2;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+}
+
+.league-table .offers {
+    height: 45px;
+    left: 227px;
+    position: absolute;
+    top: 23px;
+    width: 52px;
+}
+
+.league-table .text-wrapper-5 {
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+}
+
+.league-table .discount {
+    height: 24px;
+    left: 14px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.league-table .setting {
+    height: 46px;
+    left: 314px;
+    position: absolute;
+    top: 21px;
+    width: 33px;
+}
+
+.league-table .setting-2 {
+    height: 24px;
+    left: 4px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.league-table .text-wrapper-6 {
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+}
+
+.league-table .home-indicator {
+    background-color: #e0e0e0;
+    border-radius: 80px;
+    height: 5px;
+    left: 150px;
+    position: absolute;
+    top: 78px;
+    width: 130px;
+}
+
+.league-table .table {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 543px;
+    left: 22px;
+    position: absolute;
+    top: 241px;
+    width: 2208px;
+}
+
+.league-table .table-row-instance {
+    align-self: stretch !important;
+    background-color: unset !important;
+    flex: 0 0 auto !important;
+    width: 100% !important;
+}
+
+.league-table .table-header-component {
+    font-family: "Inter-Regular", Helvetica !important;
+    font-weight: 400 !important;
+}
+
+.league-table .table-header-instance {
+    align-self: stretch !important;
+    background-color: unset !important;
+    height: 66px !important;
+    width: 100% !important;
+}
+
+.league-table .table-header-component-instance {
+    color: #e31d1c !important;
+    font-family: "Inter-Regular", Helvetica !important;
+    font-weight: 400 !important;
+    margin-top: unset !important;
+}
+
+.league-table .design-component-instance-node {
+    align-self: stretch !important;
+    background-color: unset !important;
+    height: 65px !important;
+    width: 100% !important;
+}
+
+.league-table .table-row-instance-2 {
+    font-family: "Inter-Regular", Helvetica !important;
+    font-weight: 400 !important;
+    margin-top: unset !important;
+}
+
+.league-table .table-row-instance-3 {
+    align-self: stretch !important;
+    background-color: unset !important;
+    height: 65px !important;
+    margin-bottom: -21px !important;
+    width: 100% !important;
+}

@@ -1,0 +1,579 @@
+.managing-teams {
+    background-color: #5a90e2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.managing-teams .overlap-wrapper {
+    background-color: #5a90e2;
+    height: 932px;
+    overflow: hidden;
+    width: 430px;
+}
+
+.managing-teams .overlap {
+    height: 937px;
+    position: relative;
+}
+
+.managing-teams .frame {
+    background-color: #ffffff;
+    border-radius: 40px 40px 0px 0px;
+    height: 822px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 108px;
+    width: 430px;
+}
+
+.managing-teams .div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 18px;
+    position: absolute;
+    top: 35px;
+    width: 380px;
+}
+
+.managing-teams .text-wrapper {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.managing-teams .frame-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    width: 5px;
+}
+
+.managing-teams .frame-3 {
+    background-color: #1b1a1e;
+    border-radius: 80px;
+    height: 4px;
+    position: relative;
+    width: 4px;
+}
+
+.managing-teams .frame-4 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 25px;
+    position: absolute;
+    top: 357px;
+    width: 380px;
+}
+
+.managing-teams .frame-5 {
+    background-color: #f0f0f1;
+    border-radius: 20px;
+    height: 80px;
+    left: 18px;
+    overflow: hidden;
+    position: absolute;
+    top: 394px;
+    width: 380px;
+}
+
+.managing-teams .frame-6 {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    left: 20px;
+    position: absolute;
+    top: 15px;
+}
+
+.managing-teams .type-edit-avatar {
+    background-color: #ffffff;
+    border-radius: 100px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 50px;
+}
+
+.managing-teams .layer {
+    height: 50px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.managing-teams .new-coach-jose {
+    color: #1b1a1e;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 151px;
+}
+
+.managing-teams .span {
+    color: #1b1a1e;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.managing-teams .text-wrapper-2 {
+    font-size: 11px;
+}
+
+.managing-teams .div-wrapper {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 28px;
+    left: 286px;
+    position: absolute;
+    top: 9px;
+    width: 76px;
+}
+
+.managing-teams .text-wrapper-3 {
+    color: #000000;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 11px;
+    font-weight: 500;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    width: 56px;
+}
+
+.managing-teams .frame-7 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 28px;
+    left: 286px;
+    position: absolute;
+    top: 43px;
+    width: 76px;
+}
+
+.managing-teams .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 21px;
+    left: 322px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 73px;
+    width: 78px;
+}
+
+.managing-teams .img {
+    height: 932px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.managing-teams .frame-8 {
+    height: 162px;
+    left: 288px;
+    position: absolute;
+    top: 740px;
+    width: 142px;
+}
+
+.managing-teams .fill-your-profile {
+    color: #ffffff;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 63px;
+}
+
+.managing-teams .frame-9 {
+    background-color: #ffffff;
+    border-color: #ededed;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 90px;
+    left: 0;
+    position: absolute;
+    top: 847px;
+    width: 430px;
+}
+
+.managing-teams .home {
+    height: 46px;
+    left: 47px;
+    position: absolute;
+    top: 13px;
+    width: 26px;
+}
+
+.managing-teams .my-recepits {
+    height: 46px;
+    left: 119px;
+    position: absolute;
+    top: 13px;
+    width: 38px;
+}
+
+.managing-teams .bookmark {
+    height: 24px;
+    left: 7px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.managing-teams .text-wrapper-5 {
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+}
+
+.managing-teams .offers {
+    height: 45px;
+    left: 188px;
+    position: absolute;
+    top: 14px;
+    width: 54px;
+}
+
+.managing-teams .text-wrapper-6 {
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+}
+
+.managing-teams .discount {
+    height: 24px;
+    left: 15px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.managing-teams .message {
+    height: 45px;
+    left: 266px;
+    position: absolute;
+    top: 14px;
+    width: 52px;
+}
+
+.managing-teams .chat {
+    height: 24px;
+    left: 14px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.managing-teams .setting {
+    height: 46px;
+    left: 340px;
+    position: absolute;
+    top: 13px;
+    width: 58px;
+}
+
+.managing-teams .setting-2 {
+    height: 24px;
+    left: 17px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.managing-teams .home-indicator {
+    background-color: #e0e0e0;
+    border-radius: 80px;
+    height: 5px;
+    left: 150px;
+    position: absolute;
+    top: 78px;
+    width: 130px;
+}
+
+.managing-teams .status-bar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.managing-teams .time {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.managing-teams .time-2 {
+    color: var(--labelsprimary);
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18.6px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.managing-teams .levels {
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.managing-teams .battery {
+    height: 14px;
+    left: 99px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+}
+
+.managing-teams .overlap-group {
+    border: 1.09px solid;
+    border-color: var(--labelsprimary);
+    border-radius: 4.7px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.managing-teams .capacity {
+    background-color: var(--labelsprimary);
+    border-radius: 2.74px;
+    height: 10px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 23px;
+}
+
+.managing-teams .cap {
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.managing-teams .wifi {
+    height: 13px;
+    left: 72px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+}
+
+.managing-teams .cellular-connection {
+    height: 13px;
+    left: 43px;
+    position: absolute;
+    top: 21px;
+    width: 21px;
+}
+
+.managing-teams .frame-10 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e3e3e3;
+    border-radius: 18px;
+    height: 124px;
+    left: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 179px;
+    width: 380px;
+}
+
+.managing-teams .frame-11 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    left: 78px;
+    position: absolute;
+    top: 24px;
+    width: 190px;
+}
+
+.managing-teams .text-wrapper-7 {
+    align-self: stretch;
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.managing-teams .sarah-collin {
+    align-self: stretch;
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+}
+
+.managing-teams .frame-12 {
+    align-items: center;
+    display: inline-flex;
+    gap: 5px;
+    left: 20px;
+    position: absolute;
+    top: 84px;
+}
+
+.managing-teams .text-wrapper-8 {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.5;
+    position: relative;
+    width: fit-content;
+}
+
+.managing-teams .text-wrapper-9 {
+    color: #55d262;
+    font-family: "Anek Odia-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.managing-teams .frame-13 {
+    align-items: center;
+    display: inline-flex;
+    gap: 5px;
+    left: 119px;
+    position: absolute;
+    top: 84px;
+}
+
+.managing-teams .overlap-2 {
+    border-radius: 100px;
+    height: 61px;
+    left: 14px;
+    position: absolute;
+    top: 8px;
+    width: 56px;
+}
+
+.managing-teams .group {
+    height: 50px;
+    left: 6px;
+    position: absolute;
+    top: 10px;
+    width: 50px;
+}
+
+.managing-teams .layer-wrapper {
+    background-color: #ffffff;
+    border-radius: 100px;
+    height: 61px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 56px;
+}
+
+.managing-teams .layer-2 {
+    height: 61px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 56px;
+}
+
+.managing-teams .frame-14 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e3e3e3;
+    border-radius: 18px;
+    height: 124px;
+    left: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 318px;
+    width: 380px;
+}
+
+.managing-teams .group-2 {
+    height: 50px;
+    left: 20px;
+    position: absolute;
+    top: 18px;
+    width: 50px;
+}

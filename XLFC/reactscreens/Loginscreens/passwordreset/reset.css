@@ -1,0 +1,202 @@
+.create-new {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.create-new .create-new-password {
+    background-color: #ffffff;
+    height: 932px;
+    overflow: hidden;
+    width: 430px;
+}
+
+.create-new .overlap {
+    height: 932px;
+    position: relative;
+}
+
+.create-new .img {
+    height: 932px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.create-new .frame {
+    align-items: center;
+    background-color: #5990e1;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px #5a90e226;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 62px;
+    justify-content: center;
+    left: 25px;
+    padding: 16px 24px;
+    position: absolute;
+    top: 822px;
+    width: 380px;
+}
+
+.create-new .login {
+    color: #ffffff;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -1px;
+    margin-top: -3px;
+    position: relative;
+    width: fit-content;
+}
+
+.create-new .div {
+    height: 174px;
+    left: 64px;
+    position: absolute;
+    top: 320px;
+    width: 303px;
+}
+
+.create-new .frame-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 0;
+    position: absolute;
+    top: 111px;
+    width: 303px;
+}
+
+.create-new .email {
+    align-self: stretch;
+    color: #1b1a1e99;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+}
+
+.create-new .sarah-collin {
+    align-self: stretch;
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.9;
+    position: relative;
+    text-align: center;
+}
+
+.create-new .icon-check {
+    height: 100px;
+    left: 101px;
+    position: absolute;
+    top: 0;
+    width: 100px;
+}
+
+.create-new .status-bar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.create-new .time {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.create-new .text-wrapper {
+    color: var(--labelsprimary);
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18.6px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.create-new .levels {
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.create-new .battery {
+    height: 14px;
+    left: 99px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+}
+
+.create-new .overlap-group {
+    border: 1.09px solid;
+    border-color: var(--labelsprimary);
+    border-radius: 4.7px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.create-new .capacity {
+    background-color: var(--labelsprimary);
+    border-radius: 2.74px;
+    height: 10px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 23px;
+}
+
+.create-new .cap {
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.create-new .wifi {
+    height: 13px;
+    left: 72px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+}
+
+.create-new .cellular-connection {
+    height: 13px;
+    left: 43px;
+    position: absolute;
+    top: 21px;
+    width: 21px;
+}

@@ -1,0 +1,213 @@
+.role-selection {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.role-selection .overlap-wrapper {
+    background-color: #ffffff;
+    height: 1003px;
+    overflow: hidden;
+    width: 430px;
+}
+
+.role-selection .overlap {
+    height: 932px;
+    position: relative;
+}
+
+.role-selection .img {
+    height: 932px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.role-selection .frame {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e3e3e3;
+    border-radius: 18px;
+    height: 110px;
+    left: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 260px;
+    width: 380px;
+}
+
+.role-selection .div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 20px;
+    position: absolute;
+    top: 24px;
+    width: 190px;
+}
+
+.role-selection .text-wrapper {
+    align-self: stretch;
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.role-selection .sarah-collin {
+    align-self: stretch;
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+}
+
+.role-selection .img-2 {
+    height: 60px;
+    left: 300px;
+    position: absolute;
+    top: 25px;
+    width: 60px;
+}
+
+.role-selection .frame-2 {
+    background-color: #ffffff;
+    border: 1.8px solid;
+    border-color: #e0e0e0;
+    border-radius: 18px;
+    height: 110px;
+    left: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 385px;
+    width: 380px;
+}
+
+.role-selection .fill-your-profile {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 89px;
+}
+
+.role-selection .status-bar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.role-selection .time {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.role-selection .time-2 {
+    color: var(--labelsprimary);
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18.6px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.role-selection .levels {
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.role-selection .battery {
+    height: 14px;
+    left: 99px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+}
+
+.role-selection .overlap-group {
+    border: 1.09px solid;
+    border-color: var(--labelsprimary);
+    border-radius: 4.7px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.role-selection .capacity {
+    background-color: var(--labelsprimary);
+    border-radius: 2.74px;
+    height: 10px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 23px;
+}
+
+.role-selection .cap {
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.role-selection .wifi {
+    height: 13px;
+    left: 72px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+}
+
+.role-selection .cellular-connection {
+    height: 13px;
+    left: 43px;
+    position: absolute;
+    top: 21px;
+    width: 21px;
+}
+
+.role-selection .admins-will-bypass {
+    color: #000000;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 587px;
+    width: 349px;
+}

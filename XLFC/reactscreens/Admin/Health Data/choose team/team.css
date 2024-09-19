@@ -1,0 +1,381 @@
+.different-teams {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.different-teams .overlap-wrapper {
+    background-color: #ffffff;
+    height: 932px;
+    overflow: hidden;
+    width: 430px;
+}
+
+.different-teams .overlap {
+    height: 932px;
+    position: relative;
+}
+
+.different-teams .img {
+    height: 932px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.different-teams .frame {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e3e3e3;
+    border-radius: 12px;
+    height: 57px;
+    left: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 131px;
+    width: 380px;
+}
+
+.different-teams .sarah-collin {
+    color: #1b1a1e;
+    font-family: "Anek Odia-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+}
+
+.different-teams .loupe {
+    height: 20px;
+    left: 340px;
+    position: absolute;
+    top: 19px;
+    width: 20px;
+}
+
+.different-teams .fill-your-profile {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 64px;
+}
+
+.different-teams .status-bar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.different-teams .time {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.different-teams .text-wrapper {
+    color: var(--labelsprimary);
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18.6px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.different-teams .levels {
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.different-teams .battery {
+    height: 14px;
+    left: 99px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+}
+
+.different-teams .overlap-group {
+    border: 1.09px solid;
+    border-color: var(--labelsprimary);
+    border-radius: 4.7px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.different-teams .capacity {
+    background-color: var(--labelsprimary);
+    border-radius: 2.74px;
+    height: 10px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 23px;
+}
+
+.different-teams .cap {
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.different-teams .wifi {
+    height: 13px;
+    left: 72px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+}
+
+.different-teams .cellular-connection {
+    height: 13px;
+    left: 43px;
+    position: absolute;
+    top: 21px;
+    width: 21px;
+}
+
+.different-teams .div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    left: 25px;
+    position: absolute;
+    top: 218px;
+    width: 380px;
+}
+
+.different-teams .email {
+    align-self: stretch;
+    color: #1b1a1e99;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.different-teams .frame-2 {
+    align-self: stretch;
+    background-color: #f0f0f1;
+    border-radius: 20px;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.different-teams .frame-3 {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    left: 20px;
+    position: absolute;
+    top: 15px;
+}
+
+.different-teams .type-edit-avatar {
+    background-color: #ffffff;
+    border-radius: 100px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 50px;
+}
+
+.different-teams .layer {
+    height: 50px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.different-teams .text-wrapper-2 {
+    color: #1b1a1e;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+}
+
+.different-teams .frame-4 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 34px;
+    left: 326px;
+    position: absolute;
+    top: 23px;
+    width: 34px;
+}
+
+.different-teams .frame-5 {
+    background-color: #ffffff;
+    border-color: #ededed;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 90px;
+    left: 0;
+    position: absolute;
+    top: 842px;
+    width: 430px;
+}
+
+.different-teams .home {
+    height: 46px;
+    left: 47px;
+    position: absolute;
+    top: 13px;
+    width: 26px;
+}
+
+.different-teams .my-recepits {
+    height: 46px;
+    left: 119px;
+    position: absolute;
+    top: 13px;
+    width: 38px;
+}
+
+.different-teams .bookmark {
+    height: 24px;
+    left: 7px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.different-teams .text-wrapper-3 {
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+}
+
+.different-teams .offers {
+    height: 45px;
+    left: 188px;
+    position: absolute;
+    top: 14px;
+    width: 54px;
+}
+
+.different-teams .text-wrapper-4 {
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+}
+
+.different-teams .discount {
+    height: 24px;
+    left: 15px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.different-teams .message {
+    height: 45px;
+    left: 266px;
+    position: absolute;
+    top: 14px;
+    width: 52px;
+}
+
+.different-teams .chat {
+    height: 24px;
+    left: 14px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.different-teams .text-wrapper-5 {
+    color: #5a90e1;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+}
+
+.different-teams .setting {
+    height: 46px;
+    left: 340px;
+    position: absolute;
+    top: 13px;
+    width: 58px;
+}
+
+.different-teams .setting-2 {
+    height: 24px;
+    left: 17px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.different-teams .home-indicator {
+    background-color: #e0e0e0;
+    border-radius: 80px;
+    height: 5px;
+    left: 150px;
+    position: absolute;
+    top: 78px;
+    width: 130px;
+}

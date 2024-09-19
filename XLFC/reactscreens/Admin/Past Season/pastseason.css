@@ -1,0 +1,407 @@
+.past-seasons {
+    background-color: #5a90e1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.past-seasons .overlap-wrapper {
+    background-color: #5a90e1;
+    height: 932px;
+    overflow: hidden;
+    width: 430px;
+}
+
+.past-seasons .overlap {
+    height: 932px;
+    position: relative;
+    width: 2230px;
+}
+
+.past-seasons .img {
+    height: 932px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.past-seasons .frame {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    left: 61px;
+    position: absolute;
+    top: 94px;
+    width: 123px;
+}
+
+.past-seasons .div {
+    color: #ffffff;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: -81px;
+    margin-top: -1px;
+    position: relative;
+    width: 204px;
+}
+
+.past-seasons .status-bar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.past-seasons .time {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.past-seasons .time-2 {
+    color: var(--labelsprimary);
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18.6px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.past-seasons .levels {
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.past-seasons .battery {
+    height: 14px;
+    left: 99px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+}
+
+.past-seasons .overlap-group {
+    border: 1.09px solid;
+    border-color: var(--labelsprimary);
+    border-radius: 4.7px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.past-seasons .capacity {
+    background-color: var(--labelsprimary);
+    border-radius: 2.74px;
+    height: 10px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 23px;
+}
+
+.past-seasons .cap {
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.past-seasons .wifi {
+    height: 13px;
+    left: 72px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+}
+
+.past-seasons .cellular-connection {
+    height: 13px;
+    left: 43px;
+    position: absolute;
+    top: 21px;
+    width: 21px;
+}
+
+.past-seasons .frame-2 {
+    background-color: #ffffff;
+    border-radius: 40px 40px 0px 0px;
+    height: 763px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 169px;
+    width: 430px;
+}
+
+.past-seasons .frame-3 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 18px;
+    position: absolute;
+    top: 35px;
+    width: 380px;
+}
+
+.past-seasons .text-wrapper-2 {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.past-seasons .frame-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    width: 5px;
+}
+
+.past-seasons .frame-5 {
+    background-color: #1b1a1e;
+    border-radius: 80px;
+    height: 4px;
+    position: relative;
+    width: 4px;
+}
+
+.past-seasons .rectangle-wrapper {
+    background-color: #d9d9d9;
+    border-radius: 8px;
+    height: 10px;
+    left: 25px;
+    position: absolute;
+    top: 647px;
+    width: 385px;
+}
+
+.past-seasons .rectangle {
+    background-color: #656262;
+    border-radius: 8px;
+    height: 10px;
+    width: 180px;
+}
+
+.past-seasons .frame-6 {
+    background-color: #ffffff;
+    border-color: #ededed;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 90px;
+    left: 0;
+    position: absolute;
+    top: 673px;
+    width: 430px;
+}
+
+.past-seasons .home {
+    height: 46px;
+    left: 47px;
+    position: absolute;
+    top: 13px;
+    width: 26px;
+}
+
+.past-seasons .my-recepits {
+    height: 46px;
+    left: 119px;
+    position: absolute;
+    top: 13px;
+    width: 38px;
+}
+
+.past-seasons .bookmark {
+    height: 24px;
+    left: 7px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.past-seasons .text-wrapper-3 {
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+}
+
+.past-seasons .offers {
+    height: 45px;
+    left: 188px;
+    position: absolute;
+    top: 14px;
+    width: 54px;
+}
+
+.past-seasons .text-wrapper-4 {
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+}
+
+.past-seasons .discount {
+    height: 24px;
+    left: 15px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.past-seasons .message {
+    height: 45px;
+    left: 266px;
+    position: absolute;
+    top: 14px;
+    width: 52px;
+}
+
+.past-seasons .chat {
+    height: 24px;
+    left: 14px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.past-seasons .setting {
+    height: 46px;
+    left: 340px;
+    position: absolute;
+    top: 13px;
+    width: 58px;
+}
+
+.past-seasons .setting-2 {
+    height: 24px;
+    left: 17px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.past-seasons .text-wrapper-5 {
+    color: #5990e1;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+}
+
+.past-seasons .home-indicator {
+    background-color: #e0e0e0;
+    border-radius: 80px;
+    height: 5px;
+    left: 150px;
+    position: absolute;
+    top: 78px;
+    width: 130px;
+}
+
+.past-seasons .table {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 543px;
+    left: 22px;
+    position: absolute;
+    top: 241px;
+    width: 2208px;
+}
+
+.past-seasons .table-row-instance {
+    align-self: stretch !important;
+    background-color: unset !important;
+    flex: 0 0 auto !important;
+    width: 100% !important;
+}
+
+.past-seasons .table-header-component {
+    font-family: "Inter-Regular", Helvetica !important;
+    font-weight: 400 !important;
+}
+
+.past-seasons .table-header-instance {
+    align-self: stretch !important;
+    background-color: unset !important;
+    height: 66px !important;
+    width: 100% !important;
+}
+
+.past-seasons .table-header-component-instance {
+    font-family: "Inter-Regular", Helvetica !important;
+    font-weight: 400 !important;
+    margin-top: unset !important;
+}
+
+.past-seasons .design-component-instance-node {
+    align-self: stretch !important;
+    background-color: unset !important;
+    height: 65px !important;
+    width: 100% !important;
+}
+
+.past-seasons .table-row-instance-2 {
+    align-self: stretch !important;
+    background-color: unset !important;
+    height: 65px !important;
+    margin-bottom: -21px !important;
+    width: 100% !important;
+}
+
+.past-seasons .frame-7 {
+    height: 32px;
+    left: 17px;
+    position: absolute;
+    top: 94px;
+    width: 32px;
+}

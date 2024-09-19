@@ -1,0 +1,253 @@
+.weigh-in-editor {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.weigh-in-editor .overlap-wrapper {
+    background-color: #ffffff;
+    height: 932px;
+    overflow: hidden;
+    width: 430px;
+}
+
+.weigh-in-editor .overlap {
+    height: 932px;
+    position: relative;
+}
+
+.weigh-in-editor .img {
+    height: 932px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.weigh-in-editor .frame {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e3e3e3;
+    border-radius: 12px;
+    height: 57px;
+    left: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 131px;
+    width: 380px;
+}
+
+.weigh-in-editor .sarah-collin {
+    color: #1b1a1e;
+    font-family: "Anek Odia-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+}
+
+.weigh-in-editor .loupe {
+    height: 20px;
+    left: 340px;
+    position: absolute;
+    top: 19px;
+    width: 20px;
+}
+
+.weigh-in-editor .fill-your-profile {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    left: 46px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 64px;
+}
+
+.weigh-in-editor .status-bar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.weigh-in-editor .time {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.weigh-in-editor .text-wrapper {
+    color: var(--labelsprimary);
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18.6px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.weigh-in-editor .levels {
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.weigh-in-editor .battery {
+    height: 14px;
+    left: 99px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+}
+
+.weigh-in-editor .overlap-group {
+    border: 1.09px solid;
+    border-color: var(--labelsprimary);
+    border-radius: 4.7px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.weigh-in-editor .capacity {
+    background-color: var(--labelsprimary);
+    border-radius: 2.74px;
+    height: 10px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 23px;
+}
+
+.weigh-in-editor .cap {
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.weigh-in-editor .wifi {
+    height: 13px;
+    left: 72px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+}
+
+.weigh-in-editor .cellular-connection {
+    height: 13px;
+    left: 43px;
+    position: absolute;
+    top: 21px;
+    width: 21px;
+}
+
+.weigh-in-editor .div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    left: 25px;
+    position: absolute;
+    top: 218px;
+    width: 380px;
+}
+
+.weigh-in-editor .email {
+    align-self: stretch;
+    color: #1b1a1e99;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.weigh-in-editor .frame-2 {
+    align-self: stretch;
+    background-color: #f0f0f1;
+    border-radius: 20px;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.weigh-in-editor .frame-3 {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    left: 20px;
+    position: absolute;
+    top: 15px;
+}
+
+.weigh-in-editor .type-edit-avatar {
+    background-color: #ffffff;
+    border-radius: 100px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 50px;
+}
+
+.weigh-in-editor .layer {
+    height: 50px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.weigh-in-editor .text-wrapper-2 {
+    color: #1b1a1e;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+}
+
+.weigh-in-editor .frame-4 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 34px;
+    left: 326px;
+    position: absolute;
+    top: 23px;
+    width: 34px;
+}
+
+.weigh-in-editor .frame-5 {
+    height: 32px;
+    left: 13px;
+    position: absolute;
+    top: 71px;
+    width: 32px;
+}

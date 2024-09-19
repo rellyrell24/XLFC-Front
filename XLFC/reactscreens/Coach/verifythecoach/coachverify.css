@@ -1,0 +1,209 @@
+.wait-for-validation {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.wait-for-validation .overlap-wrapper {
+    background-color: #ffffff;
+    height: 932px;
+    overflow: hidden;
+    width: 430px;
+}
+
+.wait-for-validation .overlap {
+    height: 932px;
+    position: relative;
+}
+
+.wait-for-validation .img {
+    height: 932px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.wait-for-validation .frame {
+    align-items: center;
+    background-color: #5990e1;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px #5a90e226;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 62px;
+    justify-content: center;
+    left: 25px;
+    padding: 16px 24px;
+    position: absolute;
+    top: 822px;
+    width: 380px;
+}
+
+.wait-for-validation .login {
+    color: #ffffff;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -1px;
+    margin-top: -3px;
+    position: relative;
+    width: fit-content;
+}
+
+.wait-for-validation .overlap-group-wrapper {
+    height: 174px;
+    left: 64px;
+    position: absolute;
+    top: 320px;
+    width: 303px;
+}
+
+.wait-for-validation .overlap-group {
+    height: 202px;
+    position: relative;
+}
+
+.wait-for-validation .div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 0;
+    position: absolute;
+    top: 92px;
+    width: 303px;
+}
+
+.wait-for-validation .email {
+    align-self: stretch;
+    color: #1b1a1e99;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+}
+
+.wait-for-validation .sarah-collin {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -12px;
+    margin-right: -12px;
+    opacity: 0.9;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.wait-for-validation .icon-check {
+    height: 100px;
+    left: 101px;
+    position: absolute;
+    top: 0;
+    width: 100px;
+}
+
+.wait-for-validation .status-bar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.wait-for-validation .time {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.wait-for-validation .text-wrapper {
+    color: var(--labelsprimary);
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18.6px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.wait-for-validation .levels {
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.wait-for-validation .battery {
+    height: 14px;
+    left: 99px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+}
+
+.wait-for-validation .capacity-wrapper {
+    border: 1.09px solid;
+    border-color: var(--labelsprimary);
+    border-radius: 4.7px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.wait-for-validation .capacity {
+    background-color: var(--labelsprimary);
+    border-radius: 2.74px;
+    height: 10px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 23px;
+}
+
+.wait-for-validation .cap {
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.wait-for-validation .wifi {
+    height: 13px;
+    left: 72px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+}
+
+.wait-for-validation .cellular-connection {
+    height: 13px;
+    left: 43px;
+    position: absolute;
+    top: 21px;
+    width: 21px;
+}
