@@ -13,8 +13,11 @@ import readings from './team_readings.png'
 import xlfc1 from './team_xlfc1.png'
 import xlfc2 from './team_xlfc2.png'
 
+import country_usa from './country_usa.png'
+
 export default {
   admin, manager, player,
   erickson, messi, neuer, ronaldo, salah, vanDiyk,
-  readings, xlfc1, xlfc2
+  readings, xlfc1, xlfc2,
+  country_usa
 }

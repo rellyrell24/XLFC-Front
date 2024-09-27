@@ -21,6 +21,20 @@ const AuthLayout = () => {
             headerTitle: '',
           }}
         />
+        <Stack.Screen
+          name="more-info"
+          options={{
+            headerShown: false,
+            headerTitle: '',
+          }}
+        />
+        <Stack.Screen
+          name="new-account"
+          options={{
+            headerShown: false,
+            headerTitle: '',
+          }}
+        />
       </Stack>
       {/* <StatusBar backgroundColor='#161622' style='light' /> */}
     </>

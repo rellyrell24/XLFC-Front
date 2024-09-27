@@ -1,6 +1,7 @@
 import { View, Text, Image } from 'react-native'
 import { useState, useEffect } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { useLocalSearchParams, useFocusEffect, router } from 'expo-router'
 
 import DefaultInput from '../../components/inputs/DefaultInput'
 import ButtonPrimary from '../../components/buttons/ButtonPrimary'
@@ -23,6 +24,7 @@ const LoginScreen = () => {
         <DefaultInput 
           label="Email"
           style="mx-4 my-3"
+          placeholder="Enter Email Address"
           text={email}
           setText={setEmail}
           leftView={
@@ -36,6 +38,7 @@ const LoginScreen = () => {
         <DefaultInput 
           label="Password"
           style="mx-4 my-3"
+          placeholder="Enter Password"
           text={password}
           setText={setPassword}
           secureTextEntry={true}
@@ -78,7 +81,7 @@ const LoginScreen = () => {
             />
           }
         />
-        <Text className="text-center">Don't have an account? <Text className="text-primary underline font-semibold">Register Now</Text></Text>
+        <Text className="text-center">Don't have an account? <Text className="text-primary underline font-semibold" onPress={() => router.push('/register')}>Register Now</Text></Text>
       </View>
     </SafeAreaView>
   )

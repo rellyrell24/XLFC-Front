@@ -19,7 +19,7 @@ const DefaultInput = ({ text, setText, label, placeholder, keyboardType, autoCap
   return (
     // <View className={`flex-1 ${style}`}>
     <View className={`${style}`}>
-      {label && <Text className="pb-3 font-medium text-gray-600">{label}</Text>}
+      {label && <Text className="pb-2.5 font-medium text-gray-600">{label}</Text>}
 
       {/* <Animated.View className="bg-b-secondary h-[50px] rounded-lg px-3 pb-0.5 justify-center border-[1.5px]" style={buttonStyle}> */}
       {/* <Animated.View className="h-[50px] rounded-lg px-3 justify-center border-[1.5px]" style={buttonStyle}> */}
