@@ -1,11 +1,32 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text, Image } from 'react-native'
+import { useEffect, useState } from 'react'
+import { SafeAreaView } from 'react-native-safe-area-context'
+import { useNavigation } from 'expo-router'
+
+import ButtonPrimary from '../../components/buttons/ButtonPrimary'
+
+import images from '../../assets/images'
 
 const NewAccountScreen = () => {
+  
+  const navigation = useNavigation()
+
   return (
-    <View>
-      <Text>NewAccountScreen</Text>
-    </View>
+    <SafeAreaView className="bg-white h-full flex flex-col">
+      <View className="flex-1 flex items-center justify-center flex-col">
+        <Image
+          source={images.feedback.check}
+          className="w-[100] h-[100]"
+        />
+        <Text className="m-2 text-gray-600">Congratulations!</Text>
+        <Text className="text-xl font-medium">Your Account has been created</Text>
+      </View>
+      <ButtonPrimary 
+        text="Back To Login"
+        containerProps="mx-4 my-4"
+        onClick={() => navigation.popToTop()}
+      />
+    </SafeAreaView>
   )
 }
 

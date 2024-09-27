@@ -2,13 +2,13 @@ import { View, Text, ScrollView, Image } from 'react-native'
 import { useState, useEffect } from 'react'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { useLocalSearchParams, useFocusEffect, router } from 'expo-router'
 
 import DefaultInput from '../../components/inputs/DefaultInput'
 import TopNavAction from '../../components/main/TopNavAction'
 import ButtonPrimary from '../../components/buttons/ButtonPrimary'
 
 import ArrowDown from '../../assets/images/nav/arrow-down.svg'
-
 import images from '../../assets/images'
 
 const RegisterScreen = () => {
@@ -87,7 +87,7 @@ const RegisterScreen = () => {
         </ScrollView>
         <ButtonPrimary 
           text="Continue"
-          containerProps="mx-4 my-6"
+          containerProps="mx-4 my-4"
           onClick={() => router.push('/more-info')}
         />
       </SafeAreaView>
