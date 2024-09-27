@@ -1,0 +1,376 @@
+.coach-deletion {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.coach-deletion .overlap-wrapper {
+    background-color: #ffffff;
+    height: 1064px;
+    overflow: hidden;
+    width: 430px;
+}
+
+.coach-deletion .overlap {
+    height: 999px;
+    position: relative;
+}
+
+.coach-deletion .img {
+    height: 932px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.coach-deletion .fill-your-profile {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    left: 46px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 64px;
+}
+
+.coach-deletion .status-bar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.coach-deletion .time {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.coach-deletion .text-wrapper {
+    color: var(--labelsprimary);
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18.6px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.coach-deletion .levels {
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.coach-deletion .battery {
+    height: 14px;
+    left: 99px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+}
+
+.coach-deletion .overlap-group {
+    border: 1.09px solid;
+    border-color: var(--labelsprimary);
+    border-radius: 4.7px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.coach-deletion .capacity {
+    background-color: var(--labelsprimary);
+    border-radius: 2.74px;
+    height: 10px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 23px;
+}
+
+.coach-deletion .cap {
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.coach-deletion .wifi {
+    height: 13px;
+    left: 72px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+}
+
+.coach-deletion .cellular-connection {
+    height: 13px;
+    left: 43px;
+    position: absolute;
+    top: 21px;
+    width: 21px;
+}
+
+.coach-deletion .frame {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    left: 25px;
+    position: absolute;
+    top: 218px;
+    width: 380px;
+}
+
+.coach-deletion .email {
+    align-self: stretch;
+    color: #1b1a1e99;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.coach-deletion .div {
+    align-self: stretch;
+    background-color: #f0f0f1;
+    border-radius: 20px;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.coach-deletion .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    left: 20px;
+    position: absolute;
+    top: 15px;
+}
+
+.coach-deletion .type-edit-avatar {
+    background-color: #ffffff;
+    border-radius: 100px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 50px;
+}
+
+.coach-deletion .layer {
+    height: 50px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.coach-deletion .text-wrapper-2 {
+    color: #1b1a1e;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+}
+
+.coach-deletion .div-wrapper {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 34px;
+    left: 236px;
+    position: absolute;
+    top: 23px;
+    width: 124px;
+}
+
+.coach-deletion .text-wrapper-3 {
+    color: #e31d1c;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    width: 107px;
+}
+
+.coach-deletion .overlap-group-2 {
+    height: 50px;
+    left: 20px;
+    position: absolute;
+    top: 15px;
+    width: 87px;
+}
+
+.coach-deletion .frame-3 {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.coach-deletion .vector {
+    height: 5px;
+    left: 52px;
+    position: absolute;
+    top: 22px;
+    width: 3px;
+}
+
+.coach-deletion .frame-4 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 34px;
+    left: 237px;
+    position: absolute;
+    top: 23px;
+    width: 123px;
+}
+
+.coach-deletion .frame-5 {
+    height: 32px;
+    left: 13px;
+    position: absolute;
+    top: 71px;
+    width: 32px;
+}
+
+.coach-deletion .text-wrapper-4 {
+    color: #e31d1c;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 141px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 108px;
+    white-space: nowrap;
+    width: 138px;
+}
+
+.coach-deletion .frame-6 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    left: 25px;
+    position: absolute;
+    top: 452px;
+    width: 380px;
+}
+
+.coach-deletion .overlap-group-3 {
+    height: 36px;
+    left: 237px;
+    position: absolute;
+    top: 21px;
+    width: 123px;
+}
+
+.coach-deletion .frame-7 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 34px;
+    left: 89px;
+    position: absolute;
+    top: 2px;
+    width: 34px;
+}
+
+.coach-deletion .frame-8 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 123px;
+}
+
+.coach-deletion .overlap-2 {
+    border-radius: 12px;
+    height: 34px;
+    left: 237px;
+    position: absolute;
+    top: 23px;
+    width: 123px;
+}
+
+.coach-deletion .frame-9 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 34px;
+    left: 89px;
+    position: absolute;
+    top: 0;
+    width: 34px;
+}
+
+.coach-deletion .frame-10 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e3e3e3;
+    border-radius: 12px;
+    height: 57px;
+    left: 29px;
+    overflow: hidden;
+    position: absolute;
+    top: 151px;
+    width: 380px;
+}
+
+.coach-deletion .sarah-collin {
+    color: #1b1a1e;
+    font-family: "Anek Odia-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+}
+
+.coach-deletion .loupe {
+    height: 20px;
+    left: 340px;
+    position: absolute;
+    top: 19px;
+    width: 20px;
+}

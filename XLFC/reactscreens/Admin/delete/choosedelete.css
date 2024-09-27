@@ -1,0 +1,403 @@
+.choose-team-to {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.choose-team-to .overlap-wrapper {
+    background-color: #ffffff;
+    height: 932px;
+    overflow: hidden;
+    width: 430px;
+}
+
+.choose-team-to .overlap {
+    height: 932px;
+    position: relative;
+}
+
+.choose-team-to .img {
+    height: 932px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.choose-team-to .frame {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e3e3e3;
+    border-radius: 12px;
+    height: 57px;
+    left: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 131px;
+    width: 380px;
+}
+
+.choose-team-to .sarah-collin {
+    color: #1b1a1e;
+    font-family: "Anek Odia-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+}
+
+.choose-team-to .loupe {
+    height: 20px;
+    left: 340px;
+    position: absolute;
+    top: 19px;
+    width: 20px;
+}
+
+.choose-team-to .fill-your-profile {
+    color: #1b1a1e;
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    left: 61px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 58px;
+}
+
+.choose-team-to .status-bar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 430px;
+}
+
+.choose-team-to .time {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.choose-team-to .text-wrapper {
+    color: var(--labelsprimary);
+    font-family: "Anek Odia-SemiBold", Helvetica;
+    font-size: 18.6px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.choose-team-to .levels {
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+}
+
+.choose-team-to .battery {
+    height: 14px;
+    left: 99px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+}
+
+.choose-team-to .overlap-group {
+    border: 1.09px solid;
+    border-color: var(--labelsprimary);
+    border-radius: 4.7px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.choose-team-to .capacity {
+    background-color: var(--labelsprimary);
+    border-radius: 2.74px;
+    height: 10px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 23px;
+}
+
+.choose-team-to .cap {
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.choose-team-to .wifi {
+    height: 13px;
+    left: 72px;
+    position: absolute;
+    top: 21px;
+    width: 19px;
+}
+
+.choose-team-to .cellular-connection {
+    height: 13px;
+    left: 43px;
+    position: absolute;
+    top: 21px;
+    width: 21px;
+}
+
+.choose-team-to .div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    left: 25px;
+    position: absolute;
+    top: 218px;
+    width: 380px;
+}
+
+.choose-team-to .email {
+    align-self: stretch;
+    color: #1b1a1e99;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.choose-team-to .frame-2 {
+    align-self: stretch;
+    background-color: #f0f0f1;
+    border-radius: 20px;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.choose-team-to .frame-3 {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    left: 20px;
+    position: absolute;
+    top: 15px;
+}
+
+.choose-team-to .type-edit-avatar {
+    background-color: #ffffff;
+    border-radius: 100px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 50px;
+}
+
+.choose-team-to .layer {
+    height: 50px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.choose-team-to .text-wrapper-2 {
+    color: #1b1a1e;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+}
+
+.choose-team-to .frame-4 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 34px;
+    left: 326px;
+    position: absolute;
+    top: 23px;
+    width: 34px;
+}
+
+.choose-team-to .frame-5 {
+    background-color: #ffffff;
+    border-color: #ededed;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 90px;
+    left: 0;
+    position: absolute;
+    top: 842px;
+    width: 430px;
+}
+
+.choose-team-to .home {
+    height: 46px;
+    left: 47px;
+    position: absolute;
+    top: 13px;
+    width: 26px;
+}
+
+.choose-team-to .my-recepits {
+    height: 46px;
+    left: 119px;
+    position: absolute;
+    top: 13px;
+    width: 38px;
+}
+
+.choose-team-to .bookmark {
+    height: 24px;
+    left: 7px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.choose-team-to .text-wrapper-3 {
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+}
+
+.choose-team-to .offers {
+    height: 45px;
+    left: 188px;
+    position: absolute;
+    top: 14px;
+    width: 54px;
+}
+
+.choose-team-to .text-wrapper-4 {
+    color: #1b1a1e66;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+}
+
+.choose-team-to .discount {
+    height: 24px;
+    left: 15px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.choose-team-to .message {
+    height: 45px;
+    left: 266px;
+    position: absolute;
+    top: 14px;
+    width: 52px;
+}
+
+.choose-team-to .chat {
+    height: 24px;
+    left: 14px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.choose-team-to .text-wrapper-5 {
+    color: #1b1a1e4c;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+}
+
+.choose-team-to .setting {
+    height: 46px;
+    left: 340px;
+    position: absolute;
+    top: 13px;
+    width: 58px;
+}
+
+.choose-team-to .setting-2 {
+    height: 24px;
+    left: 17px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.choose-team-to .text-wrapper-6 {
+    color: #5990e1;
+    font-family: "Anek Odia-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+}
+
+.choose-team-to .home-indicator {
+    background-color: #e0e0e0;
+    border-radius: 80px;
+    height: 5px;
+    left: 150px;
+    position: absolute;
+    top: 78px;
+    width: 130px;
+}
+
+.choose-team-to .frame-6 {
+    height: 32px;
+    left: 17px;
+    position: absolute;
+    top: 65px;
+    width: 32px;
+}
