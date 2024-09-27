@@ -24,14 +24,14 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="weigh-in"
         options={{
-          title: 'Explore',
+          title: 'Weigh In',
           tabBarIcon: ({ color, focused }) => (
             <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
           ),
         }}
       />
     </Tabs>
-  );
+  )
 }

@@ -1,5 +1,7 @@
 import check from './check.png'
+import leftBar from './left_bar.png'
+import rightBar from './right_bar.png'
 
 export default {
-  check
+  check, leftBar, rightBar
 }

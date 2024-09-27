@@ -7,6 +7,6 @@ import tabs from './tabs'
 import logo from './logo.png'
 
 export default {
-  dummy, inputs, tabs,
+  dummy, feedback, inputs, socials, tabs,
   logo
 }
