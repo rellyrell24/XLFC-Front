@@ -35,6 +35,27 @@ const AuthLayout = () => {
             headerTitle: '',
           }}
         />
+        <Stack.Screen
+          name="recovery"
+          options={{
+            headerShown: false,
+            headerTitle: '',
+          }}
+        />
+        <Stack.Screen
+          name="verification"
+          options={{
+            headerShown: false,
+            headerTitle: '',
+          }}
+        />
+        <Stack.Screen
+          name="new-password"
+          options={{
+            headerShown: false,
+            headerTitle: '',
+          }}
+        />
       </Stack>
       {/* <StatusBar backgroundColor='#161622' style='light' /> */}
     </>

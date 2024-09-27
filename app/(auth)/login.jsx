@@ -10,7 +10,7 @@ import images from '../../assets/images'
 
 const LoginScreen = () => {
 
-  const [email, setEmail] = useState('sarah_colin@gmail.com')
+  const [email, setEmail] = useState('sarah_collin@gmail.com')
   const [password, setPassword] = useState('1234567')
 
   return (
@@ -20,7 +20,7 @@ const LoginScreen = () => {
           source={images.logo}
           className="w-[135] h-[123] mx-auto"
         />
-        <Text className="text-[26px] font-semibold text-center mt-4 mb-8">Welcome to the XLFC App!</Text>
+        <Text className="text-2xl font-semibold text-center mt-4 mb-8">Welcome to the XLFC App!</Text>
         <DefaultInput 
           label="Email"
           style="mx-4 my-3"
@@ -57,7 +57,7 @@ const LoginScreen = () => {
             />
           }
         />
-        <View className="flex items-end px-4"><Text className="underline text-gray-400">Forgot Password?</Text></View>
+        <View className="flex items-end"><Text className="underline text-gray-400 mx-4" onPress={() => router.push('/recovery')}>Forgot Password?</Text></View>
         <ButtonPrimary 
           text="Login"
           containerProps="mx-4 my-6"

@@ -28,9 +28,9 @@ const RegisterScreen = () => {
           <DefaultInput 
             label="Full Name"
             style="mx-4 my-3"
-            placeholder="Enter Email Address"
-            text={email}
-            setText={setEmail}
+            placeholder="Enter Full Name"
+            text={fullName}
+            setText={setFullName}
           />
           <DefaultInput 
             label="Date Of Birth"
