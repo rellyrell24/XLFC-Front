@@ -45,7 +45,12 @@ const MoreInfoScreen = () => {
         <ButtonPrimary 
           text="Create Account"
           containerProps="mx-4 my-4"
-          onClick={() => router.push('/new-account')}
+          onClick={() => router.push({
+            pathname: '/success',
+            params: {
+              message: 'Your Account has been created'
+            }
+          })}
         />
       </SafeAreaView>
     </GestureHandlerRootView>

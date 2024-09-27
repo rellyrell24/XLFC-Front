@@ -29,7 +29,7 @@ const AuthLayout = () => {
           }}
         />
         <Stack.Screen
-          name="new-account"
+          name="success"
           options={{
             headerShown: false,
             headerTitle: '',
