@@ -31,7 +31,7 @@ const RecoveryScreen = () => {
         <ButtonPrimary 
           text="Continue"
           containerProps="mx-4 my-4"
-          onClick={() => router.push('/verification')}
+          onPress={() => router.push('/verification')}
         />
       </SafeAreaView>
     </GestureHandlerRootView>

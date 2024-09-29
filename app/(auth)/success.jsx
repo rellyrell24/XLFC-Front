@@ -25,7 +25,7 @@ const SuccessScreen = () => {
       <ButtonPrimary 
         text="Back To Login"
         containerProps="mx-4 my-4"
-        onClick={() => navigation.popToTop()}
+        onPress={() => navigation.popToTop()}
       />
     </SafeAreaView>
   )

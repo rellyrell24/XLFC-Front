@@ -1,7 +1,7 @@
 import { View, Text, TouchableOpacity, StyleSheet, ActivityIndicator } from 'react-native'
 import colors from "tailwindcss/colors"
 
-const ButtonPrimary = ({ text, icon, inProgress, backgroundColor = '#1D82C6', textColor = 'white', textSize = 'text-base', padding = 'py-3', borderColor = '#1D82C6', isFullWidth = false, fontSize = 20, progressOver, containerProps, leftView, rightView, onClick }) => {
+const ButtonPrimary = ({ text, icon, inProgress, backgroundColor = '#1D82C6', textColor = 'white', textSize = 'text-base', padding = 'py-3', borderColor = '#1D82C6', isFullWidth = false, fontSize = 20, progressOver, containerProps, leftView, rightView, onPress }) => {
   return (
     <View className={`px-${isFullWidth ? '4' : '0'} ${isFullWidth ? 'w-full' : ''} ${containerProps}`}>
       <TouchableOpacity 
@@ -25,11 +25,11 @@ const ButtonPrimary = ({ text, icon, inProgress, backgroundColor = '#1D82C6', te
         // style={[styles.shadow, { backgroundColor: colors.blue }]}
         // style={{ backgroundColor: 'blue' }}
         onPress={() => {
-          if (!inProgress && onClick)
-            onClick()
+          if (!inProgress && onPress)
+            onPress()
         }}
         activeOpacity={0.7}
-        disabled={inProgress || !onClick}
+        disabled={inProgress || !onPress}
       >
 
         {inProgress && <ActivityIndicator 
@@ -39,13 +39,15 @@ const ButtonPrimary = ({ text, icon, inProgress, backgroundColor = '#1D82C6', te
         {!inProgress && (<>
           <View className="flex flex-row space-x-2 items-center">
             { leftView }
-
-            <Text 
-              className={`pt-0 ${textSize} font-medium`}
-              style={{ color: textColor, fontSize: fontSize }}
-            >
-              { text }
-            </Text>
+            
+            {text &&
+              <Text 
+                className={`pt-0 ${textSize} font-medium`}
+                style={{ color: textColor, fontSize: fontSize }}
+              >
+                { text }
+              </Text>
+            }
 
             { rightView }
           </View>

@@ -88,7 +88,7 @@ const RegisterScreen = () => {
         <ButtonPrimary 
           text="Continue"
           containerProps="mx-4 my-4"
-          onClick={() => router.push('/more-info')}
+          onPress={() => router.push('/more-info')}
         />
       </SafeAreaView>
     </GestureHandlerRootView>

@@ -2,6 +2,7 @@ import { View, Text, Image } from 'react-native'
 import { useState, useEffect } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useLocalSearchParams, useFocusEffect, router } from 'expo-router'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 
 import DefaultInput from '../../components/inputs/DefaultInput'
 import ButtonPrimary from '../../components/buttons/ButtonPrimary'
@@ -61,6 +62,10 @@ const LoginScreen = () => {
         <ButtonPrimary 
           text="Login"
           containerProps="mx-4 my-6"
+          onPress={async () => {
+            await AsyncStorage.setItem('auth_token', 'abc')
+            router.replace('/')
+          }}
         />
         <View className="flex flex-row items-center mx-auto space-x-4 mt-4">
           <Image source={images.feedback.leftBar} className="w-[90] h-[1]" />

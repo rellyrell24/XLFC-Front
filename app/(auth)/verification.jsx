@@ -38,7 +38,7 @@ const VerificationScreen = () => {
         <ButtonPrimary 
           text="Verify"
           containerProps="mx-4 my-4"
-          onClick={() => router.push({
+          onPress={() => router.push({
             pathname: '/success',
             params: {
               message: 'Your password has been reset'

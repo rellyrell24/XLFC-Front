@@ -4,7 +4,7 @@ import { AsYouType } from 'libphonenumber-js'
 // import XMark from '../../assets/icons/nav/xmark.svg'
 import { useState } from 'react'
 
-const DefaultInput = ({ text, setText, label, placeholder, keyboardType, autoCapitalize, maxLength, secureTextEntry, disabled=false, backgroundColorFocused="#EFEFEF", align="start", autoFocus=false, showCancel=false, style, leftView, rightView, onClick }) => {
+const DefaultInput = ({ text, setText, label, placeholder, keyboardType, autoCapitalize, maxLength, secureTextEntry, disabled=false, backgroundColorFocused="#EFEFEF", align="start", autoFocus=false, showCancel=false, multiline=false, numberOfLines=1, style, leftView, rightView, onClick }) => {
   const inFocus = useSharedValue(false)
   // const [inputInFocus, setInputInFocus] = useState("")
 
@@ -23,7 +23,7 @@ const DefaultInput = ({ text, setText, label, placeholder, keyboardType, autoCap
 
       {/* <Animated.View className="bg-b-secondary h-[50px] rounded-lg px-3 pb-0.5 justify-center border-[1.5px]" style={buttonStyle}> */}
       {/* <Animated.View className="h-[50px] rounded-lg px-3 justify-center border-[1.5px]" style={buttonStyle}> */}
-      <Animated.View className={`h-[52px] px-3 items-center border-[1.5px] flex flex-row space-x-2 justify-${align} min-h-[48]`} style={buttonStyle}>
+      <Animated.View className={`min-h-[52px] px-3 items-center border-[1.5px] flex flex-row space-x-2 justify-${align}`} style={buttonStyle}>
         { leftView }
 
         <TextInput
@@ -38,7 +38,8 @@ const DefaultInput = ({ text, setText, label, placeholder, keyboardType, autoCap
             // fontSize: '16px',
             fontSize: 16,
             // fontFamily: 'Euclid-Circular-B-Regular',
-            flex: align == "center" ? 0 : 1
+            flex: align == "center" ? 0 : 1,
+            paddingVertical: multiline ? 10 : 7.5,
           }}
           onFocus={() => {
             inFocus.value = withTiming(true, { duration: 200 })
@@ -57,6 +58,9 @@ const DefaultInput = ({ text, setText, label, placeholder, keyboardType, autoCap
           value={text} 
           autoCapitalize={autoCapitalize}
           autoFocus={autoFocus}
+          multiline={multiline}
+          numberOfLines={numberOfLines}
+          textAlignVertical={multiline ? 'top' : 'center'}
           onChangeText={(value) => {
             // if (value.length >= text.length && keyboardType == 'phone-pad') {
             if (keyboardType == 'phone-pad') {
