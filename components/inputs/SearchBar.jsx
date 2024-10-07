@@ -16,7 +16,6 @@ const SearchBar = () => {
         placeholder="Search for a participant"
         text={query}
         setText={setQuery}
-        secureTextEntry={true}
         rightView={
           <Feather name="search" size={24} color="black" />
         }
