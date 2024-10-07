@@ -21,6 +21,13 @@ const MainLayout = () => {
             headerTitle: '',
           }}
         />
+        <Stack.Screen
+          name="player-stats"
+          options={{
+            headerShown: false,
+            headerTitle: '',
+          }}
+        />
       </Stack>
       {/* <StatusBar backgroundColor='#161622' style='light' /> */}
     </>

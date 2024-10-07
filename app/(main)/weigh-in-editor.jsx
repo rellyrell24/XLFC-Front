@@ -15,7 +15,7 @@ import ButtonSecondary from '../../components/buttons/ButtonSecondary'
 
 import images from '../../assets/images'
 
-const WeighInEditor = () => {
+const WeighInEditorScreen = () => {
 
   const { player_image, player_name } = useLocalSearchParams()
 
@@ -116,4 +116,4 @@ const WeighInEditor = () => {
   )
 }
 
-export default WeighInEditor
+export default WeighInEditorScreen
