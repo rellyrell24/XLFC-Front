@@ -14,6 +14,13 @@ const MainLayout = () => {
             headerTitle: '',
           }}
         />
+        <Stack.Screen
+          name="weigh-in-editor"
+          options={{
+            headerShown: false,
+            headerTitle: '',
+          }}
+        />
       </Stack>
       {/* <StatusBar backgroundColor='#161622' style='light' /> */}
     </>

@@ -56,6 +56,13 @@ const AuthLayout = () => {
             headerTitle: '',
           }}
         />
+        <Stack.Screen
+          name="role"
+          options={{
+            headerShown: false,
+            headerTitle: '',
+          }}
+        />
       </Stack>
       {/* <StatusBar backgroundColor='#161622' style='light' /> */}
     </>

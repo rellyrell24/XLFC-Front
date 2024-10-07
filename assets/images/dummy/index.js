@@ -7,7 +7,7 @@ import messi from './player_messi.png'
 import neuer from './player_neuer.png'
 import ronaldo from './player_ronaldo.png'
 import salah from './player_salah.png'
-import vanDiyk from './player_van_dijk.png'
+import vanDijk from './player_van_dijk.png'
 
 import readings from './team_readings.png'
 import xlfc1 from './team_xlfc1.png'
@@ -19,7 +19,7 @@ import mourinho from './coach_mourinho.png'
 
 export default {
   admin, manager, player,
-  erickson, messi, neuer, ronaldo, salah, vanDiyk,
+  erickson, messi, neuer, ronaldo, salah, vanDijk,
   readings, xlfc1, xlfc2,
   country_usa,
   mourinho

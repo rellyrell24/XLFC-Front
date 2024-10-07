@@ -11,14 +11,27 @@ import images from '../../assets/images'
 import ButtonPrimary from '../../components/buttons/ButtonPrimary'
 import ButtonSecondary from '../../components/buttons/ButtonSecondary'
 
+import defaults from '../../lib/defaults'
+
 const HomeScreen = () => {
 
   const insets = useSafeAreaInsets()
 
   const teams = ['readings', 'xlfc1']
 
-  function logOut(){
-    
+  useFocusEffect(
+    useCallback(refresh, [])
+  )
+
+  function refresh(){
+    // defaults.get('fetchAllTeams', {}, null, (response) => {
+    //   console.log('Teams')
+    // })
+  }
+
+  async function logOut(){
+    await AsyncStorage.removeItem('auth_token')
+    router.replace('/login')
   }
 
   return (
@@ -38,10 +51,7 @@ const HomeScreen = () => {
             <Text className="text-white">Hello,</Text>
             <Text className="text-white font-bold text-xl">Ronaldo</Text>
           </View>
-          <TouchableOpacity className="w-[42] h-[42] rounded-xl border-[1px] border-[#FFFFFF] flex items-center justify-center" onPress={async () => {
-            await AsyncStorage.removeItem('auth_token')
-            router.replace('/login')
-          }}>
+          <TouchableOpacity className="w-[42] h-[42] rounded-xl border-[1px] border-[#FFFFFF] flex items-center justify-center" onPress={logOut}>
             <Image
               source={images.feedback.logout}
               className="h-[24] w-[24] ml-1"
@@ -49,7 +59,7 @@ const HomeScreen = () => {
           </TouchableOpacity>
         </View>
         <View className="bg-white flex-1 rounded-t-[33.3px] overflow-hidden">
-          <ScrollView className="px-5 py-6">
+          <ScrollView className="px-4 py-6">
             <Text className="text-xl font-bold">Teams</Text>
 
             {teams.map(team => (

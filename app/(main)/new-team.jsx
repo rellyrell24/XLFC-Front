@@ -52,13 +52,13 @@ const NewTeamScreen = () => {
               <MaterialIcons name="keyboard-arrow-down" size={24} color="#1B1A1E66" />
             }
           />
-          <DefaultInput 
+          {/* <DefaultInput 
             label="Number of Participants"
             style="mx-4 my-3"
             placeholder="Enter Number of Participants"
             text={participants}
             setText={setParticipants}
-          />
+          /> */}
           <DefaultInput 
             label="Team Description:"
             style="mx-4 my-3"

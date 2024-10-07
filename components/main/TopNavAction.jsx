@@ -7,7 +7,7 @@ import XMark from '../../assets/images/nav/xmark.svg'
 import ArrowBack from '../../assets/images/nav/arrow-back.svg'
 import ArrowLeft from '../../assets/images/nav/arrow-left.svg'
 
-const TopNavAction = ({ closing=false, backgroundColor='#EFEFEF', addShadow=false, title }) => {
+const TopNavAction = ({ closing=false, backgroundColor='#EFEFEF', addShadow=false, title, hideBackBtn=false }) => {
   return (
     <View className="flex flex-row items-start">
       <View className="absolute left-0 right-0 top-0 bottom-0 justify-center items-center">
@@ -15,6 +15,8 @@ const TopNavAction = ({ closing=false, backgroundColor='#EFEFEF', addShadow=fals
       </View>
       <TouchableOpacity 
         className={`mx-2 my-4 w-[42px] h-[42px] rounded-full flex justify-center items-center`}
+        style={{ opacity: hideBackBtn ? 0 : 1 }}
+        disabled={hideBackBtn}
         // style={{ backgroundColor: backgroundColor }} 
         // style={{
         //   shadowColor: "#000",
