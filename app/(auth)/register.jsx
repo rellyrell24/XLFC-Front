@@ -11,6 +11,8 @@ import ButtonPrimary from '../../components/buttons/ButtonPrimary'
 import ArrowDown from '../../assets/images/nav/arrow-down.svg'
 import images from '../../assets/images'
 
+import defaults from '../../lib/defaults'
+
 const RegisterScreen = () => {
 
   const [fullName, setFullName] = useState('')
@@ -19,6 +21,10 @@ const RegisterScreen = () => {
   const [phoneNumber, setPhoneNumber] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
+
+  function createAccount(){
+    // router.push('/more-info')
+  }
 
   return (
     <GestureHandlerRootView>
@@ -32,7 +38,7 @@ const RegisterScreen = () => {
             text={fullName}
             setText={setFullName}
           />
-          <DefaultInput 
+          {/* <DefaultInput 
             label="Date Of Birth"
             style="mx-4 my-3"
             placeholder="Enter Date Of Birth"
@@ -44,7 +50,7 @@ const RegisterScreen = () => {
                 className="w-[20] h-[20]"
               />
             }
-          />
+          /> */}
           <DefaultInput 
             label="Email"
             style="mx-4 my-3"
@@ -52,7 +58,7 @@ const RegisterScreen = () => {
             text={email}
             setText={setEmail}
           />
-          <DefaultInput 
+          {/* <DefaultInput 
             label="Phone Number"
             style="mx-4 my-3"
             placeholder="+1 000 000 000"
@@ -67,7 +73,7 @@ const RegisterScreen = () => {
                 <ArrowDown color="#666666" />
               </View>
             }
-          />
+          /> */}
           <DefaultInput 
             label="Password"
             style="mx-4 my-3"
@@ -88,7 +94,7 @@ const RegisterScreen = () => {
         <ButtonPrimary 
           text="Continue"
           containerProps="mx-4 my-4"
-          onPress={() => router.push('/more-info')}
+          onPress={createAccount}
         />
       </SafeAreaView>
     </GestureHandlerRootView>

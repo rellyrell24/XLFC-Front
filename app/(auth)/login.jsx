@@ -9,10 +9,27 @@ import ButtonPrimary from '../../components/buttons/ButtonPrimary'
 
 import images from '../../assets/images'
 
+import constants from '../../lib/constants'
+import defaults from '../../lib/defaults'
+
 const LoginScreen = () => {
 
-  const [email, setEmail] = useState('sarah_collin@gmail.com')
-  const [password, setPassword] = useState('1234567')
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+
+  function login(){
+    defaults.post(null, {
+      email: email,
+      password: password
+    }, null, async (response) => {
+      await AsyncStorage.setItem('auth_token', response.idToken)
+      await AsyncStorage.setItem('account', 'admin')
+      await AsyncStorage.setItem('email', email)
+      router.replace('/')
+    }, () => {
+      defaults.simpleAlert('Invalid Login Credentials', 'You can tap on "Forgot Password" to recover your password or "Register Now" to create an account')
+    }, null, `https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=${constants.FIREBASE_API_KEY}`)
+  }
 
   return (
     <SafeAreaView className="bg-white">
@@ -28,6 +45,7 @@ const LoginScreen = () => {
           placeholder="Enter Email Address"
           text={email}
           setText={setEmail}
+          autoCapitalize="none"
           leftView={
             <Image 
               source={images.inputs.person}
@@ -62,10 +80,7 @@ const LoginScreen = () => {
         <ButtonPrimary 
           text="Login"
           containerProps="mx-4 my-6"
-          onPress={async () => {
-            await AsyncStorage.setItem('auth_token', 'abc')
-            router.replace('/')
-          }}
+          onPress={login}
         />
         <View className="flex flex-row items-center mx-auto space-x-4 mt-4">
           <Image source={images.feedback.leftBar} className="w-[90] h-[1]" />

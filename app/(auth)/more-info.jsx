@@ -43,14 +43,9 @@ const MoreInfoScreen = () => {
           />
         </ScrollView>
         <ButtonPrimary 
-          text="Create Account"
+          text="Choose Role"
           containerProps="mx-4 my-4"
-          onPress={() => router.push({
-            pathname: '/success',
-            params: {
-              message: 'Your Account has been created'
-            }
-          })}
+          onPress={() => router.push('/role')}
         />
       </SafeAreaView>
     </GestureHandlerRootView>
