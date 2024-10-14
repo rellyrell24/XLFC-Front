@@ -15,15 +15,28 @@ import defaults from '../../lib/defaults'
 
 const RegisterScreen = () => {
 
-  const [fullName, setFullName] = useState('')
+  // const [fullName, setFullName] = useState('')
+  const [firstName, setFirstName] = useState('')
+  const [surName, setSurName] = useState('')
   const [dateOfBirth, setDateOfBirth] = useState('')
   const [email, setEmail] = useState('')
   const [phoneNumber, setPhoneNumber] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
+  const [inProgress, setInProgress] = useState(false)
 
   function createAccount(){
     // router.push('/more-info')
+    // router.push('/role')
+    defaults.post('createUser', {
+      firstName: firstName,
+      surName: surName,
+      email: email,
+      password: password,
+      confirmPassword: confirmPassword
+    }, setInProgress, (response) => {
+      defaults.logIn(email, password, setInProgress)
+    })
   }
 
   return (
@@ -32,11 +45,18 @@ const RegisterScreen = () => {
         <TopNavAction title="Create Account" />
         <ScrollView>
           <DefaultInput 
-            label="Full Name"
+            label="First Name"
             style="mx-4 my-3"
-            placeholder="Enter Full Name"
-            text={fullName}
-            setText={setFullName}
+            placeholder="Enter First Name"
+            text={firstName}
+            setText={setFirstName}
+          />
+          <DefaultInput 
+            label="Sur Name"
+            style="mx-4 my-3"
+            placeholder="Enter Sur Name"
+            text={surName}
+            setText={setSurName}
           />
           {/* <DefaultInput 
             label="Date Of Birth"
@@ -57,6 +77,8 @@ const RegisterScreen = () => {
             placeholder="Enter Email Address"
             text={email}
             setText={setEmail}
+            keyboardType="email"
+            autoCapitalize="none"
           />
           {/* <DefaultInput 
             label="Phone Number"
@@ -94,6 +116,7 @@ const RegisterScreen = () => {
         <ButtonPrimary 
           text="Continue"
           containerProps="mx-4 my-4"
+          inProgress={inProgress}
           onPress={createAccount}
         />
       </SafeAreaView>
