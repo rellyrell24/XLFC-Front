@@ -17,16 +17,18 @@ const HomeScreen = () => {
 
   const insets = useSafeAreaInsets()
 
-  const teams = ['readings', 'xlfc1']
+  // const teams = ['readings', 'xlfc1']
+  const [teams, setTeams] = useState([])
 
   useFocusEffect(
     useCallback(refresh, [])
   )
 
   function refresh(){
-    // defaults.get('fetchAllTeams', {}, null, (response) => {
-    //   console.log('Teams')
-    // })
+    defaults.get('fetchAllTeams', {}, null, (response) => {
+      console.log('Teams', response.data)
+      setTeams(response.data)
+    })
   }
 
   async function logOut(){
@@ -59,29 +61,7 @@ const HomeScreen = () => {
           </TouchableOpacity>
         </View>
         <View className="bg-white flex-1 rounded-t-[33.3px] overflow-hidden">
-          <ScrollView className="px-4 py-6">
-            <Text className="text-xl font-bold">Teams</Text>
-
-            {teams.map(team => (
-              <View key={team} className="border-[1px] border-[#E4E4E4] mt-4 rounded-2xl p-4">
-                <View className="flex-row items-center">
-                  <Image
-                    source={images.dummy[team]}
-                    className="h-[57] w-[57]"
-                    resizeMode="contain"
-                  />
-                  <View className="mx-2.5 flex-1">
-                    <Text className="font-bold text-lg">Readings XL FC</Text>
-                    <Text className="text-gray-500 text-xs">Lorem Ipsum is simply dummy text.</Text>
-                  </View>
-                </View>
-                <View className="flex-row gap-4 mt-0">
-                  <Text className="text-gray-500 font-semibold">Members: <Text className="text-[#56D262] text-lg font-black">21</Text></Text>
-                  <Text className="text-gray-500 font-semibold">Total Points: <Text className="text-[#56D262] text-lg font-black">912</Text></Text>
-                </View>
-              </View>
-            ))}
-
+          <ScrollView className="px-4">
             <Text className="text-xl font-bold mt-6">New</Text>
 
             <View className="border-[1px] border-[#E4E4E4] mt-4 rounded-2xl p-4 bg-[#F0F0F1] flex flex-row items-center">
@@ -116,6 +96,30 @@ const HomeScreen = () => {
                 />
               </View>
             </View>
+
+            <Text className="text-xl font-bold mt-6">Teams</Text>
+
+            {teams.map(team => (
+              <View key={team.id} className="border-[1px] border-[#E4E4E4] mt-4 rounded-2xl p-4">
+                <View className="flex-row items-center">
+                  <Image
+                    // source={images.dummy[team]}
+                    source={images.dummy.readings}
+                    className="h-[57] w-[57]"
+                    resizeMode="contain"
+                  />
+                  <View className="mx-2.5 flex-1">
+                    <Text className="font-bold text-lg">{team.name}</Text>
+                    {team.description && <Text className="text-gray-500 text-xs">{team.description}</Text>}
+                  </View>
+                </View>
+                <View className="flex-row gap-4 mt-0">
+                  <Text className="text-gray-500 font-semibold">Members: <Text className="text-[#56D262] text-lg font-black">21</Text></Text>
+                  <Text className="text-gray-500 font-semibold">Total Points: <Text className="text-[#56D262] text-lg font-black">912</Text></Text>
+                </View>
+              </View>
+            ))}
+            <View className="mb-6" />
           </ScrollView>
         </View>
       </View>

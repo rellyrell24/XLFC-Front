@@ -23,9 +23,11 @@ const SuccessScreen = () => {
         <Text className="text-xl font-medium">{ message }</Text>
       </View>
       <ButtonPrimary 
-        text="Back To Login"
+        text="Done"
         containerProps="mx-4 my-4"
         onPress={() => navigation.popToTop()}
+        // onPress={() => router.replace('/')}
+        // onPress={() => router.back()}
       />
     </SafeAreaView>
   )
