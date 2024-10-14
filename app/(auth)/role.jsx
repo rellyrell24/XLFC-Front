@@ -29,7 +29,7 @@ const RoleScreen = () => {
       account: 'coach',
       subTitle: 'Lorem Ipsum is simply dummy text.',
       image: images.dummy.manager,
-      endpoint: 'assignCoach'
+      endpoint: 'assignUserAsCoach'
     },
     {
       account: 'admin',

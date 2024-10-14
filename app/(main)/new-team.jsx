@@ -16,11 +16,18 @@ import defaults from '../../lib/defaults'
 
 const NewTeamScreen = () => {
 
+  const { id, old_name, old_description } = useLocalSearchParams()
+
   const [name, setName] = useState('')
   const [coach, setCoach] = useState('')
   const [participants, setParticipants] = useState('')
   const [description, setDescription] = useState('')
   const [inProgress, setInProgress] = useState(false)
+
+  useEffect(() => {
+    setName(old_name ?? '')
+    setDescription(old_description ?? '')
+  }, [])
 
   function createTeam(){
     defaults.post('createTeam', {
