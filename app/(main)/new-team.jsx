@@ -12,12 +12,37 @@ import TopNavAction from '../../components/main/TopNavAction'
 import ButtonPrimary from '../../components/buttons/ButtonPrimary'
 import ButtonSecondary from '../../components/buttons/ButtonSecondary'
 
+import defaults from '../../lib/defaults'
+
 const NewTeamScreen = () => {
+
+  const { id, old_name, old_description } = useLocalSearchParams()
 
   const [name, setName] = useState('')
   const [coach, setCoach] = useState('')
   const [participants, setParticipants] = useState('')
   const [description, setDescription] = useState('')
+  const [inProgress, setInProgress] = useState(false)
+
+  useEffect(() => {
+    setName(old_name ?? '')
+    setDescription(old_description ?? '')
+  }, [])
+
+  function createTeam(){
+    defaults.post('createTeam', {
+      teamName: name,
+      coach: coach,
+      description: description
+    }, setInProgress, (response) => {
+      router.replace({
+        pathname: '/success',
+        params: {
+          message: response.message
+        }
+      })
+    })
+  }
 
   return (
     <GestureHandlerRootView>
@@ -72,12 +97,14 @@ const NewTeamScreen = () => {
         <ButtonPrimary 
           text="Create Team"
           containerProps="mx-4 my-4"
-          onPress={() => router.push({
-            pathname: '/success',
-            params: {
-              message: 'Your Account has been created'
-            }
-          })}
+          inProgress={inProgress}
+          onPress={createTeam}
+          // onPress={() => router.push({
+          //   pathname: '/success',
+          //   params: {
+          //     message: 'Your Account has been created'
+          //   }
+          // })}
         />
       </SafeAreaView>
     </GestureHandlerRootView>

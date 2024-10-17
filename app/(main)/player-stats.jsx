@@ -7,17 +7,25 @@ import { useLocalSearchParams, useFocusEffect, router } from 'expo-router'
 import Ionicons from '@expo/vector-icons/Ionicons'
 import MaterialIcons from '@expo/vector-icons/MaterialIcons'
 import AntDesign from '@expo/vector-icons/AntDesign'
+import Entypo from '@expo/vector-icons/Entypo'
 
 import DefaultInput from '../../components/inputs/DefaultInput'
 import TopNavAction from '../../components/main/TopNavAction'
 import ButtonPrimary from '../../components/buttons/ButtonPrimary'
 import ButtonSecondary from '../../components/buttons/ButtonSecondary'
+import GaugeWithBlob from '../../components/ui/GaugeWithBlob'
 
 import images from '../../assets/images'
 
 const PlayerStatsScreen = () => {
 
   const { player_image, player_name } = useLocalSearchParams()
+
+  const sections = [
+    { startAngle: -85, endAngle: -5, color: 'red' },
+    { startAngle: 10, endAngle: 55, color: 'yellow' },
+    { startAngle: 65, endAngle: 85, color: 'green' },
+  ];
 
   const weeks = [
     {
@@ -97,6 +105,7 @@ const PlayerStatsScreen = () => {
           
           <View className="flex flex-row mx-4 my-2.5">
             <Text className="flex-1 font-bold text-xl">Points Breakdown</Text>
+            <Entypo name="dots-two-vertical" size={24} color="black" />
           </View>
 
           <View className="bg-[#EFF1F7] mx-4 rounded-2xl py-4">
@@ -115,13 +124,37 @@ const PlayerStatsScreen = () => {
               </View>
             </View>
 
-            <View className="rounded-2xl mx-4 my-2 overflow-hidden">
+            {/* <View className="rounded-2xl mx-4 my-2 overflow-hidden">
               {weeks.map(wk => (
                 <View key={wk.week} className="flex flex-row">
                   <Text className="flex-1 bg-[#F5F5F5] px-4 py-2.5">Week {wk.week}</Text>
                   <Text className="flex-1 bg-white px-4 py-2.5">{wk.points}</Text>
                 </View>
               ))}
+            </View> */}
+          </View>
+
+          {/* <GaugeChart id="gauge-chart5"
+            nrOfLevels={420}
+            arcsLength={[0.3, 0.5, 0.2]}
+            colors={['#5BE12C', '#F5CD19', '#EA4228']}
+            percent={0.37}
+            arcPadding={0.02}
+          /> */}
+          
+          <View className="flex flex-row mx-4 my-6">
+            <Text className="flex-1 font-bold text-xl">Current Weight</Text>
+            <Entypo name="dots-two-vertical" size={24} color="black" />
+          </View>
+          
+          <View className="mx-auto my-2">
+            {/* <GaugeWithBlob width={200} height={200} strokeWidth={10} color="blue" /> */}
+            <GaugeWithBlob width={275} height={275} strokeWidth={17.5} sections={sections} />
+            <View className="absolute left-0 right-0 flex items-center" style={{ top: 100 }}>
+              <Text className="text-4xl font-bold">0.00 KG</Text>
+              <Text className="mt-2">Your current weight is average</Text>
+              <Text className="mb-2">Last Check on 21 Apr</Text>
+              <ButtonPrimary text="View Details" containerProps="w-[200] m-4" />
             </View>
           </View>
         </ScrollView>

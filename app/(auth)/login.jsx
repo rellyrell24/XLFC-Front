@@ -16,20 +16,22 @@ const LoginScreen = () => {
 
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [inProgress, setInProgress] = useState(false)
 
-  function login(){
-    defaults.post(null, {
-      email: email,
-      password: password
-    }, null, async (response) => {
-      await AsyncStorage.setItem('auth_token', response.idToken)
-      await AsyncStorage.setItem('account', 'admin')
-      await AsyncStorage.setItem('email', email)
-      router.replace('/')
-    }, () => {
-      defaults.simpleAlert('Invalid Login Credentials', 'You can tap on "Forgot Password" to recover your password or "Register Now" to create an account')
-    }, null, `https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=${constants.FIREBASE_API_KEY}`)
-  }
+  // function login(){
+  //   defaults.post(null, {
+  //     email: email,
+  //     password: password,
+  //     returnSecureToken: true
+  //   }, null, async (response) => {
+  //     await AsyncStorage.setItem('auth_token', response.idToken)
+  //     await AsyncStorage.setItem('account', 'admin')
+  //     await AsyncStorage.setItem('email', email)
+  //     router.replace('/')
+  //   }, () => {
+  //     defaults.simpleAlert('Invalid Login Credentials', 'You can tap on "Forgot Password" to recover your password or "Register Now" to create an account')
+  //   }, null, `https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=${constants.FIREBASE_API_KEY}`)
+  // }
 
   return (
     <SafeAreaView className="bg-white">
@@ -80,7 +82,8 @@ const LoginScreen = () => {
         <ButtonPrimary 
           text="Login"
           containerProps="mx-4 my-6"
-          onPress={login}
+          inProgress={inProgress}
+          onPress={() => defaults.logIn(email, password, setInProgress)}
         />
         <View className="flex flex-row items-center mx-auto space-x-4 mt-4">
           <Image source={images.feedback.leftBar} className="w-[90] h-[1]" />
