@@ -1,5 +1,22 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, connectAuthEmulator, createUserWithEmailAndPassword } from "firebase/auth";
+export { auth };
+import { getAuth, connectAuthEmulator } from 'firebase/auth';
+const auth = getAuth();
+if (process.env.NODE_ENV === 'development') {
+  connectAuthEmulator(auth, 'http://localhost:9199');
+}
+import { getFirestore, connectFirestoreEmulator } from 'firebase/firestore';
+const firestore = getFirestore();
+if (process.env.NODE_ENV === 'development') {
+  connectFirestoreEmulator(firestore, 'localhost', 8080);
+}
+import { getFunctions, connectFunctionsEmulator } from 'firebase/functions';
+const functions = getFunctions();
+if (process.env.NODE_ENV === 'development') {
+  connectFunctionsEmulator(functions, 'localhost', 5002);
+}
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyCjG4zCetIbppB0g4jF2tm4KO0SSkz8t_4",
@@ -19,4 +36,3 @@ if (process.env.NODE_ENV === "development") {
   connectAuthEmulator(auth, "http://localhost:9099");
 }
 
-export { auth };
