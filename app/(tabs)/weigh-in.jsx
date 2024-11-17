@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import { useLocalSearchParams, useFocusEffect, router } from 'expo-router'
+import { StatusBar } from 'expo-status-bar'
 
 import TopNavAction from '../../components/main/TopNavAction'
 import SearchBar from '../../components/inputs/SearchBar'
